@@ -1,0 +1,139 @@
+body {
+	background-image: url("../back.jpg");
+}
+.navbar {
+	list-style-type: none;
+	display: flex;
+	flex-direction: column;
+	margin-left: -100px;
+	margin-top: -100px;
+	width: 30%;
+	float: left;
+}
+.box {
+    padding: 10px;
+}
+a {
+	color: white;
+	text-decoration: none;
+    font-size: 20px;
+    text-align: left;
+    display: block;
+    padding: 5px;
+    transition: all 0.5s ease-out;
+}
+a:hover,
+a:focus {
+	background-color: white;
+	color: black;
+	font-size: 23px;
+}
+span {
+	color: darkgrAy;
+	text-decoration: none;
+    font-size: 50px;
+    text-align: left;
+    display: block;
+    padding: 5px;
+}
+h1 {
+	color: darkgrey;
+	font-size: 50px;
+	text-align: center;
+	margin-top:30px;
+}
+.intro {
+	color: white;
+	font-size: 20px;
+	text-align: left;
+	margin-top: 20px;
+	border: 5px solid darkgrey;
+    margin-left: 250px;
+    margin-right: 50px;
+}
+h2 {
+	color: darkgrey;
+	font-size: 30px;
+	text-align: center;
+	margin-top:30px;
+}
+.dream {
+	display: flex;
+	margin-top: 50px;
+}
+img {
+	width: 250px;
+	height: 300px;
+	margin-left: 10px;
+}
+.txt {
+    font-size: 20px;
+    text-align: center;
+    border: 3px solid darkgrey;
+    color: white;
+    justify-content: right;
+    margin:5px;
+    -webkit-text-stroke: 1px darkgrey;
+}
+.poste {
+	margin-top: 100px;
+	display: flex;
+}
+h3 {
+	color: darkgrey;
+	font-size: 30px;
+	text-align: center;
+	margin-top:30px;
+}
+@media only screen and (max-width:900px) {
+.intro {
+	font-size:15px ;
+	border: none;
+	margin-left: 30%;
+	margin-right: 5%;
+	text-align: center;
+	
+}
+.box {
+	margin-left: 80px;
+}
+h1 {
+    font-size:30px;
+    margin-left: 30%;
+	margin-right: 0%;
+	margin-top: 10px;
+
+}
+h2 {
+    font-size:25px;
+    margin-left: 30%;
+	margin-right: 0%;
+	margin-top: 10px;
+
+}
+h3 {
+	font-size: 20px;
+}
+img {
+	height: 400px;
+	width: 400px;
+}
+.dream {
+	display: flex;
+	flex-direction: column;
+	margin-top: 20%;
+}
+.txt {
+	font-size: 15px;
+    text-align:left;
+    margin-top: 10px;
+    border:none ;
+    color: white;
+    margin:5px;
+    -webkit-text-stroke: 1px darkgrey;
+}
+.poste {
+	display: flex;
+	flex-direction: column;
+}
+}

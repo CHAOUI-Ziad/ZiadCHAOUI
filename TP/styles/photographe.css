@@ -1,0 +1,93 @@
+body {
+	background-image: url("../back.jpg");
+	background-size:cover;
+	margin-top: 0px;
+}
+#navbar {
+	word-spacing: 70px;
+	text-align: center;
+	margin-right: 0px;
+	background-color: black;
+    height: 70px;
+    width: 100vw;
+}
+a {
+	color: white;
+	text-decoration: none;
+    font-size: 30px;
+    background-color: transparent;
+    transition: all 0.5s ease-out;
+}
+a:hover,
+a:focus {
+	background-color: white;
+	color: black;
+	font-size: 36px;
+}
+h1 {
+	color: darkgrey;
+	font-size: 50px;
+	text-align: center;
+	margin-top:30px;
+	font-family:serif;
+}
+.intro {
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	margin-top: 20px;
+	border: 5px solid darkgrey;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+iframe {
+	margin: 30px;
+    margin-left: 15%;
+}
+h2 {
+	color: darkgrey;
+	font-size: 50px;
+	text-align: center;
+	margin-top:30px;
+	font-family:serif;
+}
+img {
+	height: 300px;
+	width: 150px;
+	border: 1px solid grey;
+	top: 0px;
+	left: 0px;
+	margin: 5px;
+}
+img:hover {
+	height: 350px;
+	width: 200px;
+	border: 4px solid darkgrey;
+}
+.galerie {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+}
+@media only screen and (max-width:950px) {         
+header {
+	flex-direction: column;
+	display: flex;
+}
+a {
+	display: flex;
+	justify-content: center;
+}
+h1 {
+	font-size: 35px;
+}
+#navbar {
+	background-color: black;
+	height: 25%;
+}
+.intro {
+	font-size: 30px;
+	justify-content: center;
+}
+}
